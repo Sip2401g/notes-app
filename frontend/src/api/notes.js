@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://YOUR-RENDER-URL.onrender.com/api',
+  baseURL: 'https://notes-app-3-o1wo.onrender.com/api',
 });
 
 export const getNotes = () => API.get('/notes');
